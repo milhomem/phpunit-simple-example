@@ -12,9 +12,9 @@
     </testsuites>
     
     <coverage>
-        <exclude>
+        <include>
             <directory suffix=".php">src/</directory>
-        </exclude>
+        </include>
     </coverage>
     
     <php>
