@@ -12,8 +12,11 @@
     syntaxCheck                 = "false">
 
     <testsuites>
-        <testsuite name="Project Test Suite">
-            <directory>tests</directory>
+        <testsuite name="suite1">
+            <file>tests/AverageTest.php</file>
+        </testsuite>
+        <testsuite name="suite2">
+            <file>tests/MoreTest.php</file>
         </testsuite>
     </testsuites>
 
