@@ -7,7 +7,7 @@ class MoreTest extends TestCase
 {
     protected $Average;
 
-    public function setUp()
+    public function setUp(): void
     {
         $this->Average = new MoreAverage();
     }
