@@ -10,7 +10,13 @@
             <file>tests/MoreTest.php</file>
         </testsuite>
     </testsuites>
-
+    
+    <coverage>
+        <exclude>
+            <directory suffix=".php">src/</directory>
+        </exclude>
+    </coverage>
+    
     <php>
         <env name="APP_ENV" value="testing"/>
     </php>
