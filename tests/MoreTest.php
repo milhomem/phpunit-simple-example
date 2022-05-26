@@ -1,11 +1,11 @@
 <?php
 
-use drmonkeyninja\Average;
+use drmonkeyninja\MoreAverage;
 use PHPUnit\Framework\TestCase;
 
 class MoreTest extends TestCase
 {
-    protected $Average;
+    protected $MoreAverage;
 
     public function setUp()
     {
