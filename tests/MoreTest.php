@@ -23,4 +23,10 @@ class MoreTest extends TestCase
         $numbers = [3, 7, 6, 1, 5];
         $this->assertEquals(5, $this->Average->median($numbers));
     }
+    
+    public function testMoreCalculationOfMedian2()
+    {
+        $numbers = [3, 7, 6, 1, 5];
+        $this->assertEquals(5, $this->Average->median($numbers));
+    }
 }
