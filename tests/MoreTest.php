@@ -5,11 +5,11 @@ use PHPUnit\Framework\TestCase;
 
 class MoreTest extends TestCase
 {
-    protected $MoreAverage;
+    protected $Average;
 
     public function setUp()
     {
-        $this->MoreAverage = new MoreAverage();
+        $this->Average = new MoreAverage();
     }
 
     public function testMoreCalculationOfMean()
